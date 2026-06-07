@@ -1,7 +1,7 @@
 // Storage utility — localStorage wrapper (swap with Supabase later)
 
 // ── Cache-buster: if stored data version doesn't match, clear stale school data ──
-const SCHOOL_DATA_VERSION = 'lupindo-v2';
+const SCHOOL_DATA_VERSION = 'azariel-v1';
 if (localStorage.getItem('school_data_version') !== SCHOOL_DATA_VERSION) {
   ['admin_about', 'admin_contact', 'admin_news'].forEach(k => localStorage.removeItem(k));
   localStorage.setItem('school_data_version', SCHOOL_DATA_VERSION);
@@ -310,9 +310,9 @@ export const setApplications = (items: Application[]) => setItems('admin_applica
 
 // Contact
 const defaultContact: ContactInfo = {
-  address: 'Lukholweni Location, P.O. Box 1809, Matatiele, 4730 (Eastern Cape)',
-  phone: '+27 78 013 8492',
-  email: '200500449@ecschools.org.za',
+  address: 'Igoga Location, Matatiele, 4730 (Eastern Cape)',
+  phone: '+27 73 000 0000',
+  email: 'contact@azarielsss.edu.za',
   monThu: '07:30 - 15:30',
   friday: '07:30 - 13:30',
   weekend: 'Closed',
@@ -323,15 +323,15 @@ export const setContact = (info: ContactInfo) => setObject('admin_contact', info
 // About
 const defaultAbout: AboutInfo = {
   historyParagraphs: [
-    'Azariel Senior Secondary School is a public school proudly serving learners at Lukholweni Location, Matatiele, in the Alfred Nzo West District of the Eastern Cape.',
-    'Located within the Nunge Circuit under CMC Matatiele, Azariel SSS is committed to academic excellence, disciplined learning, and community values. Our motto — "Soar Like an Eagle" — reflects the spirit of every learner who walks through our doors.',
+    'Azariel Senior Secondary School is a public school proudly serving learners at Igoga Location, Matatiele, in the Alfred Nzo West District of the Eastern Cape.',
+    'Azariel SSS is committed to academic excellence, disciplined learning, and community values. Our motto — "Soar Like an Eagle" — reflects the spirit of every learner who walks through our doors.',
     'Parents and guardians are encouraged to engage actively with the school through meetings, events, and ongoing learner support. Together we build a culture of achievement and pride.',
   ],
-  principalName: 'Mr S.S. Mafunda',
+  principalName: '[TO CONFIRM]',
   principalTitle: 'Principal',
   principalMessage: [
     'Welcome to Azariel Senior Secondary School. We believe every learner carries within them the capacity for greatness. Our role is to unlock it — through discipline, love, and unwavering belief in their potential.',
-    'We value respect, responsibility, and pride in our school community. Hard work pays, and at Azariel SSS, we are committed to proving that amidst every difficulty, we rise.',
+    'We value respect, responsibility, and pride in our school community. At Azariel SSS, we are committed to helping every learner soar to their highest potential.',
   ],
 };
 export const getAbout = () => getObject<AboutInfo>('admin_about', defaultAbout);

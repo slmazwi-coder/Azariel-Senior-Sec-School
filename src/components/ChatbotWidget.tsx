@@ -137,9 +137,8 @@ async function translateText(text: string, src: SupportedLang, tgt: SupportedLan
 const SYSTEM_PROMPT = `You are a warm, knowledgeable and friendly assistant for Azariel Senior Secondary School in Matatiele, Eastern Cape, South Africa.
 
 You help parents, learners, guardians and community members with anything about the school:
-- Admissions and application process (general and boarding)
+- Admissions and application process
 - Required documents for applications
-- Boarding / hostel information (HTL 02 & HTL 03 forms, bursaries)
 - School fees, payment and financial assistance
 - School hours and term dates
 - Staff, departments and contact information
@@ -150,18 +149,14 @@ You help parents, learners, guardians and community members with anything about 
 
 School details:
 - Name: Azariel Senior Secondary School
-- Location: Sigoga Location, Mgubo A/A, Matatiele, 4730 (Eastern Cape)
-- Phone: +27 76 707 3212
-- Email: office@azarielsss.co.za
+- Location: Igoga Location, Matatiele, 4730 (Eastern Cape)
+- Education District: Alfred Nzo West Education District
+- Fee Status: No-Fee Public School
 - Motto: "Soar Like an Eagle"
-- Principal: Ms B Ngozwana
-- Deputy Principal: Mr M Leanya
-- School hours: Monday–Thursday 07:30–15:30, Friday 07:30–13:30
 - Grades: Grade 8 to Grade 12
-- 2027 applications currently open (general and boarding)
-- 2025 Matric pass rate: 94.5% | Bachelor passes: 206 (71.8%) | Distinctions: 451
+- 2024 Matric pass rate: 87.1%
 
-Be warm, clear and concise. Always encourage. If you are unsure about something very specific, direct them to call or email the school.`;
+Be warm, clear and concise. Always encourage. If you are unsure about something very specific, direct them to visit the school or use the contact form on the website.`;
 
 async function askClaude(userMessage: string): Promise<string> {
   try {
@@ -195,7 +190,7 @@ async function askClaude(userMessage: string): Promise<string> {
     return text;
   } catch (err) {
     console.error('[Chatbot] Claude request failed:', err);
-    return 'I\'m having trouble connecting right now. Please contact the school directly at +27 76 707 3212 or office@azarielsss.co.za.';
+    return 'I\'m having trouble connecting right now. Please contact the school directly using the contact form on this website or visit us at Igoga Location, Matatiele.';
   }
 }
 
@@ -348,7 +343,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
                 <Sparkles size={16} />
               </div>
               <div className="min-w-0">
-                <div className="font-bold text-sm leading-tight truncate">Lupindo Assistant</div>
+                <div className="font-bold text-sm leading-tight truncate">Azariel Assistant</div>
                 <div className="flex items-center gap-1 text-[11px] text-white/70 mt-0.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-green-300 inline-block animate-pulse" />
                   Online · AI-powered
