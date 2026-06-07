@@ -1,0 +1,7 @@
+{
+  "name": "Azariel Senior Secondary School",
+  "description": "Azariel SSS is a public school in Matatiele, Eastern Cape. Soar Like an Eagle.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
