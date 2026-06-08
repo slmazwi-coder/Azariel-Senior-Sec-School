@@ -1,0 +1,50 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="campusSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D3F6E"/>
+      <stop offset="100%" style="stop-color:#4EA8DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#campusSky)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="450" width="800" height="150" fill="#2D5A27"/>
+  
+  <!-- Main school building -->
+  <g transform="translate(150, 180)">
+    <!-- Building base -->
+    <rect x="0" y="100" width="500" height="250" fill="rgba(255,255,255,0.9)"/>
+    <!-- Roof -->
+    <polygon points="250,0 0,100 500,100" fill="#1F6FA5"/>
+    <!-- Windows row 1 -->
+    <rect x="30" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="110" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="190" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="270" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="350" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="420" y="130" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <!-- Windows row 2 -->
+    <rect x="30" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="110" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="190" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="270" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="350" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <rect x="420" y="220" width="50" height="70" rx="4" fill="#4EA8DE"/>
+    <!-- Door -->
+    <rect x="210" y="280" width="80" height="70" rx="40" fill="#C9A227"/>
+    <!-- School sign -->
+    <rect x="150" y="50" width="200" height="40" rx="6" fill="#0D3F6E"/>
+    <text x="250" y="78" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">AZARIEL SSS</text>
+  </g>
+  
+  <!-- Trees -->
+  <circle cx="100" cy="380" r="60" fill="#228B22"/>
+  <rect x="95" y="380" width="10" height="80" fill="#8B4513"/>
+  
+  <circle cx="700" cy="400" r="50" fill="#228B22"/>
+  <rect x="695" y="400" width="10" height="60" fill="#8B4513"/>
+  
+  <!-- Label -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.7)">School Campus</text>
+</svg>

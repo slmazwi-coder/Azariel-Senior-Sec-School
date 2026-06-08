@@ -290,10 +290,26 @@ export function calculateAverageMark(subjectMarks: SubjectMark[]): number {
 const defaultNews: NewsItem[] = [
   {
     id: '1',
-    title: '2027 Applications Open',
-    date: 'Now open',
+    title: 'Matric Class of 2024 Achieves 87.1% Pass Rate',
+    date: 'January 2025',
     content:
-      'Applications for admissions and boarding for the 2027 academic year are now open. Please submit your application using the online forms.',
+      'We celebrate our Grade 12 class of 2024 who achieved an outstanding 87.1% matric pass rate, a testament to hard work, dedication, and strong community support.',
+    image: '',
+  },
+  {
+    id: '2',
+    title: '2026 Grade 8 Registration Open',
+    date: 'June 2026',
+    content:
+      'Applications for Grade 8 enrolment for the 2026 academic year are now open. Visit the school admin office with all required documents. Spaces are limited — apply early.',
+    image: '',
+  },
+  {
+    id: '3',
+    title: 'Bursary & Higher Education Opportunities for Matric Graduates',
+    date: 'May 2026',
+    content:
+      'Our school counsellor is available to assist Grade 12 graduates with NSFAS, bursary applications, university registrations, and career guidance sessions.',
     image: '',
   },
 ];
@@ -323,15 +339,16 @@ export const setContact = (info: ContactInfo) => setObject('admin_contact', info
 // About
 const defaultAbout: AboutInfo = {
   historyParagraphs: [
-    'Azariel Senior Secondary School is a public secondary school located in Matatiele, Eastern Cape, proudly serving learners in the Alfred Nzo West Education District.',
+    'Azariel Senior Secondary School is a public secondary school located in Matatiele, Eastern Cape, 4730, proudly serving learners in the Alfred Nzo West Education District.',
     'Azariel SSS is committed to academic excellence, disciplined learning, and community values. Our motto — "Soar Like an Eagle" — reflects the spirit of every learner who walks through our doors.',
+    'As a No-Fee Public School, we are accessible to all qualifying learners in the district. We offer quality education for learners in Grades 8 through 12.',
     'Parents and guardians are encouraged to engage actively with the school through meetings, events, and ongoing learner support. Together we build a culture of achievement and pride.',
   ],
   principalName: '[TO CONFIRM]',
   principalTitle: 'Principal',
   principalMessage: [
     'Welcome to Azariel Senior Secondary School. We believe every learner carries within them the capacity for greatness. Our role is to unlock it — through discipline, love, and unwavering belief in their potential.',
-    'We value respect, responsibility, and pride in our school community. At Azariel SSS, we are committed to helping every learner soar to their highest potential.',
+    'We value respect, responsibility, and pride in our school community. At Azariel SSS, we are committed to helping every learner soar to their highest potential — guided by our motto "Soar Like an Eagle."',
   ],
 };
 export const getAbout = () => getObject<AboutInfo>('admin_about', defaultAbout);
@@ -364,6 +381,17 @@ export const setHallOfFame = (items: HallOfFameEntry[]) => setItems('admin_hall_
 
 // Results by year
 const defaultResults: Record<string, YearResults> = {
+  '2024': {
+    overall: 87.1,
+    bachelor: 0,
+    bachelorRate: 0,
+    distinctions: 0,
+    wrote: 0,
+    subjects: [
+      { subject: 'Mathematics', rate: 0 },
+      { subject: 'Physical Sciences', rate: 0 },
+    ],
+  },
   '2025': {
     overall: 94.5,
     bachelor: 206,
@@ -374,17 +402,6 @@ const defaultResults: Record<string, YearResults> = {
       { subject: 'Accounting', rate: 90.6 },
       { subject: 'Mathematics', rate: 71.1 },
       { subject: 'Physical Sciences', rate: 82.1 },
-    ],
-  },
-  '2024': {
-    overall: 94.0,
-    bachelor: 0,
-    bachelorRate: 0,
-    distinctions: 0,
-    wrote: 0,
-    subjects: [
-      { subject: 'English FAL', rate: 100 },
-      { subject: 'Life Orientation', rate: 100 },
     ],
   },
   '2023': {

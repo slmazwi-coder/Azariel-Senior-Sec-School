@@ -1,0 +1,24 @@
+<svg width="1920" height="650" viewBox="0 0 1920 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D3F6E"/>
+      <stop offset="40%" style="stop-color:#1F6FA5"/>
+      <stop offset="100%" style="stop-color:#4EA8DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="650" fill="url(#skyGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="1600" cy="100" r="300" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="200" cy="550" r="200" fill="rgba(255,255,255,0.03)"/>
+  
+  <!-- Eagle silhouette -->
+  <g transform="translate(960, 280) scale(3)">
+    <path d="M-40 10 Q-30 -15 -10 -12 Q-13 10 -20 18 Q0 -5 25 -8 Q15 12 8 20 Q35 8 50 20 Q38 45 25 48 Q48 58 58 78 Q35 78 22 65 Q22 90 10 110 Q-2 90 -2 65 Q-15 78 -40 78 Q-30 58 -15 48 Q-30 45 -40 10Z" fill="rgba(201,162,39,0.3)"/>
+  </g>
+  
+  <!-- Text placeholder -->
+  <rect x="660" y="520" width="600" height="60" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="960" y="555" text-anchor="middle" font-family="Arial" font-size="24" fill="rgba(255,255,255,0.5)">Academic Excellence</text>
+</svg>

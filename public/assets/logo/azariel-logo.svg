@@ -1,0 +1,18 @@
+<svg width="220" height="260" viewBox="0 0 220 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M110 10 L200 50 L200 160 Q200 230 110 255 Q20 230 20 160 L20 50 Z" fill="#4EA8DE" stroke="#1F6FA5" stroke-width="4"/>
+  
+  <!-- Eagle silhouette -->
+  <path d="M68 80 Q75 60 90 62 Q88 80 82 85 Q100 70 118 68 Q110 85 105 90 Q125 82 140 90 Q130 108 120 108 Q138 115 145 130 Q128 130 118 120 Q118 140 110 155 Q102 140 102 120 Q92 130 75 130 Q82 115 100 108 Q90 108 80 90 Q88 82 68 80Z" fill="#8B3A0A" stroke="#6B2A05" stroke-width="1.5"/>
+  
+  <!-- Eagle eye -->
+  <circle cx="98" cy="78" r="3" fill="white"/>
+  
+  <!-- Top banner -->
+  <rect x="30" y="15" width="160" height="22" rx="4" fill="#1A1A7E"/>
+  <text x="110" y="30" text-anchor="middle" font-size="9" font-family="Arial" font-weight="bold" fill="white">AZARIEL S.S.S.</text>
+  
+  <!-- Bottom banner -->
+  <rect x="25" y="220" width="170" height="26" rx="4" fill="#8B1A1A"/>
+  <text x="110" y="237" text-anchor="middle" font-size="9" font-family="Arial" font-weight="bold" fill="white">SOAR LIKE AN EAGLE</text>
+</svg>
