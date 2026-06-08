@@ -31,9 +31,9 @@ export const Navbar = () => {
             <Link to="/" className="flex items-center gap-3 min-w-0 flex-1">
               <div className="h-11 w-11 shrink-0 rounded-xl bg-white flex items-center justify-center overflow-hidden shadow-md" style={ { border: '2px solid #0D3F6E' } }>
                 <img
-                  src="/azariel-logo.png"
+                  src="/assets/logo/azariel-logo.svg"
                   alt="Azariel SSS logo"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-contain"
                 />
               </div>
               <div className="min-w-0">

@@ -1,7 +1,7 @@
 # Azariel Senior Secondary School Website
 
 ## 🌟 Overview
-This is the official website for Azariel Senior Secondary School, a no-fee public school located in Matatiele, Eastern Cape, South Africa. We offer quality education for learners in Grades 8-12. Our motto is "Soar Like an Eagle."
+This is the official website for Azariel Senior Secondary School, a no-fee public school located in Matatiele, Eastern Cape, 4730, South Africa. We offer quality education for learners in Grades 8-12. Our motto is **"Soar Like an Eagle."**
 
 ## 📊 Key Facts
 - **Location:** Matatiele, Eastern Cape, 4730
@@ -49,5 +49,11 @@ src/
 └── main.tsx       # Entry point
 ```
 
+## 🎨 School Colors
+- Sky Blue: #4EA8DE
+- Sky Dark: #1F6FA5
+- Sky Deep: #0D3F6E
+- Gold: #C9A227
+
 ## 📝 License
-© 2025 Azariel Senior Secondary School. All rights reserved.
+© 2026 Azariel Senior Secondary School. All rights reserved.

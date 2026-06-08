@@ -3,12 +3,9 @@ import { AnimatePresence, motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
-  { url: './azhero1.png', caption: 'Academic Excellence' },
-  { url: './azhero2.png', caption: 'Soar Like an Eagle' },
-  { url: './azhero3.png', caption: 'Our Proud Learners' },
-  { url: './assets/hero/azhero1.png', caption: 'Excellence in Education' },
-  { url: './assets/hero/azhero2.png', caption: 'Building Future Leaders' },
-  { url: './assets/hero/azhero3.png', caption: 'Community and Achievement' },
+  { url: '/assets/hero/azhero1.svg', caption: 'Academic Excellence' },
+  { url: '/assets/hero/azhero2.svg', caption: 'Soar Like an Eagle' },
+  { url: '/assets/hero/azhero3.svg', caption: 'Our Proud Learners' },
 ];
 
 export const Hero = () => {
@@ -76,10 +73,10 @@ export const Hero = () => {
           className="mb-5"
         >
           <img
-            src="./azariel-logo.png"
+            src="/assets/logo/azariel-logo.svg"
             alt="Azariel SSS crest"
-            className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-2xl mx-auto"
-            style={ { border: '3px solid #C9A227' } }
+            className="w-20 h-20 md:w-24 md:h-24 object-contain shadow-2xl mx-auto"
+            style={ { border: '3px solid #C9A227', borderRadius: '12px' } }
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />
         </motion.div>
