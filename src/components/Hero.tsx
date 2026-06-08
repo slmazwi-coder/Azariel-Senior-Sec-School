@@ -3,9 +3,9 @@ import { AnimatePresence, motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
-  { url: '/assets/hero/azhero1.svg', caption: 'Academic Excellence' },
-  { url: '/assets/hero/azhero2.svg', caption: 'Soar Like an Eagle' },
-  { url: '/assets/hero/azhero3.svg', caption: 'Our Proud Learners' },
+  { url: '/assets/hero/azhero1.jpg', caption: 'Academic Excellence' },
+  { url: '/assets/hero/azhero2.jpg', caption: 'Soar Like an Eagle' },
+  { url: '/assets/hero/azhero3.jpg', caption: 'Our Proud Learners' },
 ];
 
 export const Hero = () => {
@@ -73,7 +73,7 @@ export const Hero = () => {
           className="mb-5"
         >
           <img
-            src="/assets/logo/azariel-logo.svg"
+            src="/assets/logo/azariel-logo.png"
             alt="Azariel SSS crest"
             className="w-20 h-20 md:w-24 md:h-24 object-contain shadow-2xl mx-auto"
             style={ { border: '3px solid #C9A227', borderRadius: '12px' } }
