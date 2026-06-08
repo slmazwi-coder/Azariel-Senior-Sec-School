@@ -24,7 +24,7 @@ export const Footer = () => {
             <div className="flex items-center gap-3 mb-3">
               <div className="h-12 w-12 shrink-0 rounded-xl overflow-hidden shadow-lg"
                 style={ { background: '#4EA8DE', border: '2px solid #4EA8DE' } }>
-                <img src="/assets/logo/azariel-logo.svg" alt="Azariel SSS logo"
+                <img src="/assets/logo/Copilot_20260608_125215.png" alt="Azariel SSS logo"
                   className="h-full w-full object-contain" />
               </div>
               <div>

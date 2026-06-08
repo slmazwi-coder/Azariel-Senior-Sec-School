@@ -8,7 +8,7 @@ export const About = () => {
   const [campusFailed, setCampusFailed] = useState(false);
   const [principalFailed, setPrincipalFailed] = useState(false);
 
-  const campusImageUrl = '/assets/about/lscampus.svg';
+  const campusImageUrl = '/assets/about/FB_IMG_1780807576320.jpg';
   const principalImageUrl = '/assets/about/principal.svg';
 
   useEffect(() => {
