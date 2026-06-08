@@ -149,7 +149,7 @@ You help parents, learners, guardians and community members with anything about 
 
 School details:
 - Name: Azariel Senior Secondary School
-- Location: Igoga Location, Matatiele, 4730 (Eastern Cape)
+- Location: Matatiele, Eastern Cape, 4730
 - Education District: Alfred Nzo West Education District
 - Fee Status: No-Fee Public School
 - Motto: "Soar Like an Eagle"
@@ -190,7 +190,7 @@ async function askClaude(userMessage: string): Promise<string> {
     return text;
   } catch (err) {
     console.error('[Chatbot] Claude request failed:', err);
-    return 'I\'m having trouble connecting right now. Please contact the school directly using the contact form on this website or visit us at Igoga Location, Matatiele.';
+    return 'I\'m having trouble connecting right now. Please contact the school directly using the contact form on this website or visit us at Matatiele, Eastern Cape.';
   }
 }
 

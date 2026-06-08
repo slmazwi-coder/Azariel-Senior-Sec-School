@@ -310,7 +310,7 @@ export const Admissions = () => {
               <div>
                 <h2 className="text-2xl font-bold">Application for Admission to School</h2>
                 <p className="text-white/70 text-sm mt-1">
-                  Azariel Senior Secondary School &nbsp;·&nbsp; Igoga Location, Matatiele 4730
+                  Azariel Senior Secondary School &nbsp;·&nbsp; Matatiele, Eastern Cape, 4730
                 </p>
               </div>
               <div className="text-right text-sm text-white/70">

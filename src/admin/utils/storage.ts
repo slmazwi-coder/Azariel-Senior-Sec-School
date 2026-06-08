@@ -310,8 +310,8 @@ export const setApplications = (items: Application[]) => setItems('admin_applica
 
 // Contact
 const defaultContact: ContactInfo = {
-  address: 'Igoga Location, Matatiele, 4730 (Eastern Cape)',
-  phone: '+27 73 000 0000',
+  address: 'Matatiele, Eastern Cape, 4730',
+  phone: '+27 00 000 0000',
   email: 'contact@azarielsss.edu.za',
   monThu: '07:30 - 15:30',
   friday: '07:30 - 13:30',
@@ -323,7 +323,7 @@ export const setContact = (info: ContactInfo) => setObject('admin_contact', info
 // About
 const defaultAbout: AboutInfo = {
   historyParagraphs: [
-    'Azariel Senior Secondary School is a public school proudly serving learners at Igoga Location, Matatiele, in the Alfred Nzo West District of the Eastern Cape.',
+    'Azariel Senior Secondary School is a public secondary school located in Matatiele, Eastern Cape, proudly serving learners in the Alfred Nzo West Education District.',
     'Azariel SSS is committed to academic excellence, disciplined learning, and community values. Our motto — "Soar Like an Eagle" — reflects the spirit of every learner who walks through our doors.',
     'Parents and guardians are encouraged to engage actively with the school through meetings, events, and ongoing learner support. Together we build a culture of achievement and pride.',
   ],
